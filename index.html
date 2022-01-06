@@ -1,87 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Creating Forms</title>
-</head>
-<body>
+  </head>
+  <body>
     <h2>Please enter your Personal Information</h2>
     <form action="Thanks.html" method="get">
-        <label for="First Name">First name:</label>
-        <input type="text" name="First Name" id="First Name"placeholder="Rohit" required>
-        <br>
-        <br>
-        <label for="Last Name">Last name:</label>
-        <input type="text" name="Last Name" id="Last Name"placeholder="Sharma" required>
-        <br>
-        <br>
-        <label for="Gender">Select Gender:</label>
-        <input type="radio" name="Gender" id="Gender" required>
-        <label for="Gender">Male</label>
-        <input type="radio" name="Gender" id="Gender"required
-        >
-        <label for="Gender">Female</label>
-        <input type="radio" name="Gender" id="Gender"required
-        >
-        <label for="Gender">Others</label>
-         <br><br>
-        <label for="Email">Enter email address:</label>
-        <input type="email" name="Email" id="Email"placeholder="name@example.com" required>
-        <br>
-        <br>
-        <label for="email">Confirm email:</label>
-        <input type="email" name="Email" id="email" placeholder="name@example.com"required>
-        <br><br>
-        <label for="Password">Enter Password:</label>
-        <input type="Password" minlength= "8" id="Password" placeholder="Min eight characters"required><br><br>
-        <label for="RPassword">Confirm Password:</label>
-        <input type="Password"minlength="8" id="RPassword"placeholder="Min eight characters"required>
-        <br><br>
-        <label for="Address"> Enter Address Line1:</label>
-        <input type="text"id="Address">
-        <label for="Address2"> Enter Address Line2:</label>
-        <input type="text"id="Address2"><br><br>
-        <label for="City">District:</label>
-        <input type="text"id="City">
-        <label for="State">State:</label>
-          <select name="State" id="State">
-            <option value=""></option>
-              <option value="State">Tamil Nadu</option>
-              <option value="State">Andhra Pradesh</option>
-              <option value="State">Arunachal Pradesh</option>
-              <option value="State">Assam</option>
-              <option value="State">Bihar</option>
-              <option value="State">Chhattisgarh</option>
-              <option value="State">Goa</option>
-              <option value="State">Gujarat</option>
-              <option value="State">Haryana</option>
-              <option value="State">Himachal Pradesh</option>
-              <option value="State">Jharkhand</option>
-              <option value="State">Karnataka</option>
-              <option value="State">Kerala</option>
-              <option value="State">Madhya Pradesh</option>
-              <option value="State">Maharashtra</option>
-              <option value="State">Manipur</option>
-              <option value="State">Meghalaya</option>
-              <option value="State">Mizoram</option>
-              <option value="State">Nagaland</option>
-              <option value="State">Odisha</option>
-              <option value="State">Punjab</option>
-              <option value="State">Rajasthan</option>
-              <option value="State">Sikkim</option>
-              <option value="State">Telangana</option>
-              <option value="State">Tripura</option>
-              <option value="State">Uttar Pradesh</option>
-              <option value="State">Uttarakhand</option>
-              <option value="State">West Bengal</option>
-          </select>
+      <label for="First Name">First name:</label>
+      <input
+        type="text"
+        name="First Name"
+        id="First Name"
+        placeholder="Rohit"
+        required
+      />
+      <br />
+      <br />
+      <label for="Last Name">Last name:</label>
+      <input
+        type="text"
+        name="Last Name"
+        id="Last Name"
+        placeholder="Sharma"
+        required
+      />
+      <br />
+      <br />
+      <label for="Gender">Select Gender:</label>
+      <input type="radio" name="Gender" id="Gender" required />
+      <label for="Gender">Male</label>
+      <input type="radio" name="Gender" id="Gender" required />
+      <label for="Gender">Female</label>
+      <input type="radio" name="Gender" id="Gender" required />
+      <label for="Gender">Others</label>
+      <br /><br />
+      <label for="Email">Enter email address:</label>
+      <input
+        type="email"
+        name="Email"
+        id="Email"
+        placeholder="name@example.com"
+        required
+      />
+      <br />
+      <br />
+      <label for="email">Confirm email:</label>
+      <input
+        type="email"
+        name="Email"
+        id="email"
+        placeholder="name@example.com"
+        required
+      />
+      <br /><br />
+      <label for="Password">Enter Password:</label>
+      <input
+        type="Password"
+        minlength="8"
+        id="Password"
+        placeholder="Min eight characters"
+        required
+      /><br /><br />
+      <label for="RPassword">Confirm Password:</label>
+      <input
+        type="Password"
+        minlength="8"
+        id="RPassword"
+        placeholder="Min eight characters"
+        required
+      />
+      <br /><br />
+      <label for="Address"> Enter Address Line1:</label>
+      <input type="text" id="Address" />
+      <label for="Address2"> Enter Address Line2:</label>
+      <input type="text" id="Address2" /><br /><br />
+      <label for="City">District:</label>
+      <input type="text" id="City" />
+      <label for="State">State:</label>
+      <select name="State" id="State">
+        <option value=""></option>
+        <option value="State">Tamil Nadu</option>
+        <option value="State">Andhra Pradesh</option>
+        <option value="State">Arunachal Pradesh</option>
+        <option value="State">Assam</option>
+        <option value="State">Bihar</option>
+        <option value="State">Chhattisgarh</option>
+        <option value="State">Goa</option>
+        <option value="State">Gujarat</option>
+        <option value="State">Haryana</option>
+        <option value="State">Himachal Pradesh</option>
+        <option value="State">Jharkhand</option>
+        <option value="State">Karnataka</option>
+        <option value="State">Kerala</option>
+        <option value="State">Madhya Pradesh</option>
+        <option value="State">Maharashtra</option>
+        <option value="State">Manipur</option>
+        <option value="State">Meghalaya</option>
+        <option value="State">Mizoram</option>
+        <option value="State">Nagaland</option>
+        <option value="State">Odisha</option>
+        <option value="State">Punjab</option>
+        <option value="State">Rajasthan</option>
+        <option value="State">Sikkim</option>
+        <option value="State">Telangana</option>
+        <option value="State">Tripura</option>
+        <option value="State">Uttar Pradesh</option>
+        <option value="State">Uttarakhand</option>
+        <option value="State">West Bengal</option>
+      </select>
 
-<label for="Pin Code">Pin code</label>
-<input type="text" name="Pin Code" id="Pin Code" required placeholder="600028">
-<br><br>
-<input type="submit" value="Submit Form" id="submit">
+      <label for="Pin Code">Pin code</label>
+      <input
+        type="text"
+        name="Pin Code"
+        id="Pin Code"
+        required
+        placeholder="600028"
+      />
+      <br /><br />
+      <input type="submit" value="Submit Form" id="submit" />
+      <input type="reset" value="Reset Form" id=" Reset" />
     </form>
-</body>
+  </body>
 </html>
